@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- JetBrains IDE 风格 "Ln" 字标，置于渐变底色之上 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="1.6"
+        android:scaleY="1.6"
+        android:pivotX="54"
+        android:pivotY="54"
+        android:translateY="1">
+        <!-- L -->
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M26,30 h9 v33 h16 v9 h-25 z" />
+        <!-- n -->
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M59,38 h9 v6 c3.2,-4.6 7.6,-7 13,-7 c9.2,0 14,5.6 14,15.4 V72 h-9 V54 c0,-5.6 -2.6,-8.6 -7.4,-8.6 c-5.4,0 -9.6,4.4 -9.6,10.8 V72 h-9.6 z" />
+    </group>
+</vector>

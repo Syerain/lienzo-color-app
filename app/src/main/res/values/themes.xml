@@ -1,0 +1,16 @@
+<resources>
+    <!-- 常规主题：窗口背景为中性白色（导航动画时不再透出启动屏蓝色） -->
+    <style name="Theme.Lienzo" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+    <!-- 冷启动启动屏主题：莱茵蓝底。onCreate 中立即 setTheme 切到常规主题，
+         仅冷启动首帧为蓝色，之后导航/切换动画不再闪烁蓝底 -->
+    <style name="Theme.Lienzo.Splash" parent="Theme.Lienzo">
+        <item name="android:windowBackground">@color/rhine_blue</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

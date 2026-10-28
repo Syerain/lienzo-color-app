@@ -1,0 +1,3 @@
+-keepattributes *Annotation*
+-keep class com.lienzo.palette.data.** { *; }
+-keepclassmembers class kotlinx.serialization.json.** { *** Companion; }
